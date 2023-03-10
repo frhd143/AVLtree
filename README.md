@@ -11,6 +11,12 @@ This implementation contains the following methods:
 - `find(element)`: finds an element in the tree
 - `pre_order_walk()`: returns a list of the nodes traversed in pre-order
 - `in_order_walk()`: returns a list of the nodes traversed in in-order
+- `post_order_walk()`: returns a list of the nodes traversed in post-order
+- `get_tree_height()`: returns the height of the tree
+- `get_min()`: returns the smallest node in the tree
+- `get_max()` returns the largest node in the tree
+- `to_graphviz()`: returns a code the can be used to visualize the tree
+
 
 ## Usage
 To use the AVL tree, simply import the `AVL` class from the module and create an instance of it:
