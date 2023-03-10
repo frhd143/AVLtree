@@ -17,7 +17,7 @@ To use the AVL tree, simply import the `AVL` class from the module and create an
 ```python
 from AVL import AVL
 
-tree = AVL()
+tree = AVLTree()
 ```
 
 You can then use the methods listed above to insert, remove, and find elements in the tree.
