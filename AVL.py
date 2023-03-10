@@ -258,14 +258,3 @@ class AVL:
             data = self.to_graphviz_rec(data, self._root)
             data += "}\n"
         return data
-
-def main():
-    avl = AVL()
-    lst1 = [3, 2, 1, 4, 5, 6, 7]
-    for i in lst1:
-        avl.insert(i)
-    print(avl.get_tree_height())
-    print(avl.to_graphviz())
-
-if __name__ == '__main__':
-    main()
