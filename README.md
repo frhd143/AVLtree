@@ -34,7 +34,7 @@ print(tree.pre_order_walk()) # [5, 3, 8]
 print(tree.in_order_walk()) # [3, 5, 8]
 ```
 
-You can also use https://dreampuf.github.io/GraphvizOnline/to visulize the tree.
+You can also use https://dreampuf.github.io/GraphvizOnline/ to visulize the tree.
 To this you need to call the `to_graphviz()` function:
 ```python
 print(tree.to_graphviz())
