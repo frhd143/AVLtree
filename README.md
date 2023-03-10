@@ -15,7 +15,7 @@ This implementation contains the following methods:
 ## Usage
 To use the AVL tree, simply import the `AVL` class from the module and create an instance of it:
 ```python
-from avl_tree import AVL
+from AVL import AVL
 
 tree = AVL()
 ```
